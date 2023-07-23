@@ -25,7 +25,5 @@ if (rand == 3){
 if (rand == 4){
     userresult = '凶';
 }
-if (username == ''){
-    userresult = '名前教えて( ;∀;)'
-}
+
 document.getElementById('daikichi').innerHTML = userresult
